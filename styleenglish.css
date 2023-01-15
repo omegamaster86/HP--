@@ -1,3 +1,11 @@
+.title {
+    width: 16px;
+}
+
+.all {
+    overflow-x: hidden;
+}
+
 .header {
     position: relative;
 }
@@ -130,7 +138,7 @@ table {
 }
 
 th {
-    width: 140px;
+    width: 175px;
     text-align: initial;    
 }
 
@@ -285,19 +293,28 @@ footer small {
         overflow-x: hidden;
     }
 
+    .header-start {
+        width: 80%;
+    }
+
     .header-end {
         padding-right: 20px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        margin: 0px;
     }
 
     .wrapper {
+        overflow-x: hidden;
         display: flex; 
         position: absolute;
         right: 0;
-        height: 345%;
-        top: 75%;
+        height: 500%;
+        top: 60%;
         background-color: rgba(200,200,200,0.5);
         flex-direction: column;
-        width: 150px;
+        width: 156px;
         transform: translateX(100%);
         z-index: 30;
     }
@@ -348,18 +365,23 @@ footer small {
     }
 
     th {
-        display: block;
-        text-align: center;
+        width: 163px;
+        text-align: initial;
     }
 
     td {
         display: block;
-        text-align: center;
+        text-align: initial;
     }
 
     .td-last {
         padding-left: 0%;
         text-align: initial;
+    }
+
+    #inquiry-text{
+        text-align: inherit;   
+        margin: 0px 35px 0px;
     }
 
     .iframe {
