@@ -85,8 +85,9 @@ h1 {
 }
 
 .slider img {
-    width: 100%;
-    background: cover;
+    width: 80%;
+    margin: 0% 10%;
+    /*background: cover;*/
 }
 
 .head-line {
@@ -327,7 +328,8 @@ footer small {
     }
     
     .slider img {
-        width: 100%;
+        width: 80%;
+        margin: 0% 10%;
         height: 80%;
     }
 
