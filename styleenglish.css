@@ -1,5 +1,5 @@
 .title {
-    width: 16px;
+    width: 48px;
 }
 
 .all {
@@ -41,9 +41,11 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 10px 0px;
 }
 
 .wrapper {
+    margin: -10px 0px;
     display: flex;
     transition: all 0.5s ease-in-out;
 }
@@ -76,13 +78,11 @@ h1 {
     transform: translateX(0%) !important;
 }
 
-.slider {
-    position:relative;
-    /*height: 100vh;*/
-    overflow: hidden;
+.swiper-wrapper {
+    text-align: center;
 }
 
-.slider img {
+.swiper-slide img {
     width: 80%;
     margin: 0% 10%;
 }
@@ -95,6 +95,8 @@ h1 {
 
 .section1 {
     display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     margin: 0% 3%;
 }
@@ -107,7 +109,7 @@ h1 {
 }
 
 .text {
-    margin: 0% 3%;
+    margin: 0% 6%;
 }
 
 .text-head {
@@ -138,8 +140,7 @@ table {
 }
 
 th {
-    width: 175px;
-    text-align: initial;    
+    width: 70px
 }
 
 td {
@@ -310,8 +311,8 @@ footer small {
         display: flex; 
         position: absolute;
         right: 0;
-        height: 500%;
-        top: 60%;
+        height: 360%;
+        top: 139%;
         background-color: rgba(200,200,200,0.5);
         flex-direction: column;
         width: 156px;
@@ -323,10 +324,10 @@ footer small {
         display: block;
     }
     
-    .slider img {
+    .swiper-slide img {
         width: 80%;
-        height: 80%;
         margin: 0% 10%;
+        height: 80%;
     }
 
     .section1 {
@@ -335,7 +336,7 @@ footer small {
 
     .section1 img {
         padding-bottom: 15px;
-        width: 80%;
+        width: 280px;
     }
 
     .section2 {
@@ -344,7 +345,7 @@ footer small {
 
     .section2 img {
         padding-bottom: 15px;
-        width: 80%;
+        width: 280px;
     }
 
     .text {
@@ -366,8 +367,9 @@ footer small {
     }
 
     th {
-        width: 163px;
+        display: block;
         text-align: initial;
+        width: auto;
     }
 
     td {

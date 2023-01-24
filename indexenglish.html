@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Japan Pharma Inc.</title>
     <meta name="description" content="sample text sample text sample text"></meta>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="swiper.css"/>
     <link rel="stylesheet" href="styleenglish.css"></link>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link href="https://unpkg.com/sanitize.css" rel="stylesheet">
     <link rel="icon" href="image/スクリーンショット 2022-12-24 11.35.26.png" />
+    <script>"http://unpkg.com/swiper/swiper-bundle.min.js"</script>
 </head>
 <body>
  <div class="all">
@@ -40,100 +39,102 @@
       </div>
   </header>
     <section>
-       <div class="slider">
-        <div>
-            <img src="image/publicdomainq0064287hto.jpg" width="800" height="600" alt="スライド画像1">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="image/publicdomainq0064287hto.jpg" width="800" height="600">
+            </div>
+            <div class="swiper-slide">
+                <img src="image/AdobeStock_306823326.jpeg" width="800" height="600">
+            </div>
+            <div class="swiper-slide">
+                <img src="image/publicdomainq0068586ags.jpg" width="800" height="600">
+            </div>
         </div>
-        <div>
-            <img src="image/AdobeStock_306823326.jpeg" width="800" height="600" alt="スライド画像2">
-        </div>
-        <div>
-            <img src="image/publicdomainq0068586ags.jpg" width="800" height="600" alt="スライド画像3">
-        </div>
-       </div>
+      </div>
     </section>
-    <main>
-      <h2 class="head-line" id="2">About us</h2>
-      <section class="section1">
-        <img src="image/AdobeStock_207682155.jpeg" width="50%">
-        <div class="text">
-          <p class="text-head">Company Description</p>
-          <p class="text-inner">We have a multinational and multilingual team of professionals that boast expert knowledge of Japanese pharmaceuticals. Over the years, our group of experts has developed a large network within the pharmaceutical industry, including strong relationships with many distributors and pharmacies throughout Japan.</p>
-          <p class="text-inner">Using our position as a GDP-compliant wholesaler and distributor of ethical drugs and prescription medicines, we aim to develop a business that can contribute to creating a society where people can receive better medical care. </p>
-        </div>
-      </section>
-      <section class="section2">
-        <img src="image/AdobeStock_274922039.jpeg" width="50%">
-        <div class="text">
-          <p class="text-head">Mission Statement</p>
-          <p class="text-inner">Japan Pharma Inc. strives to improve the health and development of society through responsible, best-in-class sourcing services, all while reducing costs for our partners and their customers. Success in this field will help us achieve our ultimate goal, which is to provide better medical care for each patient.</p>
-          <p class="text-head">Management Policy</p>
-          <p class="text-inner">
-            <p class="inner">1. Creating a corporate culture trusted by society.</p>
-            <p class="inner">2. Continue to be an indispensable presence for our partner companies and society.</p>
-            <p class="inner">3. Cultivating a sincere and open-minded corporate culture and continuing to develop highly creative human resources.</p>
-          </p>
-        </div>
-      </section>
-      <section class="section1" id="3">
-        <img src="image/AdobeStock_164875156.jpeg" width="50%">
-        <div class="text">
-          <p class="text-head">Our Services</p>
-          <p class="text-inner">Looking towards the future, we pledge our efforts to creating a society where better medical care can be provided to patients in need. We are providing better value to our international partners by realizing improvements in accuracy and operational efficiency in our logistical services.</p>
-          <p class="text-head">Sourcing and Procurement Services</p>
-          <p class="text-inner">With our vast experience in sourcing, as well as a reliable network of trusted suppliers within the industry, we are able to easily source and procure the medicines that ourpartners desire.</p>
-        
-        </div>
-      </section>
-      <section class="section2">
-        <img src="image/AdobeStock_334143908.jpeg" width="50%">
-        <div class="text-last">
-          <p class="text-head">Logistics Services</p>
-          <p class="text-inner">We provide optimized logistical services to our global partners. Our team of specialists will analyze each partner's needs case by case in order to strategize the best logistics route.</p>
-        </div>
-      </section>
-      <h2 class="head-line" id="4">Company Profile</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Company Name</th>
-            <td>Japan Pharma Inc.</td>
-          </tr>
-          <tr>
-            <th>Representative</th>
-            <td>Kosuke Sato</td>
-          </tr>
-          <tr>
-            <th>Headquarters</th>
-            <td>3-7-27 Rm 4-C, Minamisenba, Chuo-ku, Osaka-shi, Osaka 542-0081</td>
-          </tr>
-          <tr>
-            <th>Capital</th>
-            <td>9 million Yen</td>
-          </tr>
-          <tr>
-            <th>Email</th>
-            <td>info@japanpharma.jp</td>
-          </tr>
-          <tr>
-            <th>Telephone</th>
-            <td>06-6243-2770</td>
-          </tr>
-          <tr>
-            <th>Business Activities</th>
-            <td class="td-last">
-              <ol>
-                <li>Research, development, manufacturing, wholesale, sales, import/export, and agency of cosmetics, fragrances, pharmaceuticals, quasi-drugs, chemicals, dietary supplements, health foods, and supplements.</li>
-                <li>Mail-order business using networks such as the Internet.</li>
-                <li>Planning and drafting market research and management consulting services for opening new businesses such as medical institutions, pharmacies, nursing care facilities, etc.</li>
-              </ol>
-            </td>
-          </tr>
-        </thead>
-      </table>
+  <main>
+    <h2 class="head-line" id="2">About us</h2>
+    <section class="section1">
+      <img src="image/AdobeStock_207682155.jpeg" width="50%">
+      <div class="text">
+        <p class="text-head">Company Description</p>
+        <p class="text-inner">We have a multinational and multilingual team of professionals that boast expert knowledge of Japanese pharmaceuticals. Over the years, our group of experts has developed a large network within the pharmaceutical industry, including strong relationships with many distributors and pharmacies throughout Japan.</p>
+        <p class="text-inner">Using our position as a GDP-compliant wholesaler and distributor of ethical drugs and prescription medicines, we aim to develop a business that can contribute to creating a society where people can receive better medical care. </p>
+      </div>
+    </section>
+    <section class="section2">
+      <img src="image/AdobeStock_274922039.jpeg" width="50%">
+      <div class="text">
+        <p class="text-head">Mission Statement</p>
+        <p class="text-inner">Japan Pharma Inc. strives to improve the health and development of society through responsible, best-in-class sourcing services, all while reducing costs for our partners and their customers. Success in this field will help us achieve our ultimate goal, which is to provide better medical care for each patient.</p>
+        <p class="text-head">Management Policy</p>
+        <p class="text-inner">
+          <p class="inner">1. Creating a corporate culture trusted by society.</p>
+          <p class="inner">2. Continue to be an indispensable presence for our partner companies and society.</p>
+          <p class="inner">3. Cultivating a sincere and open-minded corporate culture and continuing to develop highly creative human resources.</p>
+        </p>
+      </div>
+    </section>
+    <section class="section1" id="3">
+      <img src="image/AdobeStock_164875156.jpeg" width="50%">
+      <div class="text">
+        <p class="text-head">Our Services</p>
+        <p class="text-inner">Looking towards the future, we pledge our efforts to creating a society where better medical care can be provided to patients in need. We are providing better value to our international partners by realizing improvements in accuracy and operational efficiency in our logistical services.</p>
+        <p class="text-head">Sourcing and Procurement Services</p>
+        <p class="text-inner">With our vast experience in sourcing, as well as a reliable network of trusted suppliers within the industry, we are able to easily source and procure the medicines that ourpartners desire.</p>
+      
+      </div>
+    </section>
+    <section class="section2">
+      <img src="image/AdobeStock_334143908.jpeg" width="50%">
+      <div class="text-last">
+        <p class="text-head">Logistics Services</p>
+        <p class="text-inner">We provide optimized logistical services to our global partners. Our team of specialists will analyze each partner's needs case by case in order to strategize the best logistics route.</p>
+      </div>
+    </section>
+    <h2 class="head-line" id="4">Company Profile</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Company Name</th>
+          <td>Japan Pharma Inc.</td>
+        </tr>
+        <tr>
+          <th>Representative</th>
+          <td>Kosuke Sato</td>
+        </tr>
+        <tr>
+          <th>Headquarters</th>
+          <td>3-7-27 Rm 4-C, Minamisenba, Chuo-ku, Osaka-shi, Osaka 542-0081</td>
+        </tr>
+        <tr>
+          <th>Capital</th>
+          <td>9 million Yen</td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td>info@japanpharma.jp</td>
+        </tr>
+        <tr>
+          <th>Telephone</th>
+          <td>06-6243-2770</td>
+        </tr>
+        <tr>
+          <th>Business Activities</th>
+          <td class="td-last">
+            <ol>
+              <li>Research, development, manufacturing, wholesale, sales, import/export, and agency of cosmetics, fragrances, pharmaceuticals, quasi-drugs, chemicals, dietary supplements, health foods, and supplements.</li>
+              <li>Mail-order business using networks such as the Internet.</li>
+              <li>Planning and drafting market research and management consulting services for opening new businesses such as medical institutions, pharmacies, nursing care facilities, etc.</li>
+            </ol>
+          </td>
+        </tr>
+      </thead>
+    </table>
     <section>
       <h2 class="section-title" id="4" >Inquiry</h2>
-      <p id="inquiry-text">For inquiries about recruitment and business, please contact us using the dedicated form below.</p>
+      <p id="inquiry-text">For inquiries including recruitment and business, please contact us using the form below.</p>
       <form action="php/mail.php" method="post">  
         <div class="form">
           <div class="form-item">
@@ -172,19 +173,14 @@
     <footer class="footer">
         <small>copyright ©text</small>    
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
-        $(function(){
-            $(".slider").slick({
-                arrows: false,
-                autoplay: true,
-                autoplaySpeed: 3000,
-                speed:1000,
-                pauseOnFocus: false,
-                pauseOnHover: false,
-                pauseOnDotsHover: false
-            });
+        const swiper = new Swiper(".swiper-container", {
+          spaceBetween: 30,
+          effect: "fade",
+          autoplay: {
+            delay:3000
+          }
         });
     </script>
     <script src="app.js"></script>
